@@ -16,8 +16,8 @@ Una vez terminada la instalación de DSM7, saltará una pantalla que nos invita 
 - ActiveInsight
 
 - Paquetes a desinstalar desde terminal:
-1: Entramos por SSH al NAS.
-2: sudo -i
+`1: Entramos por SSH al NAS.
+2: sudo -i`
 
 synopkg uninstall SecureSignIn (PRECAUCIÓN: El 2fa depende de este paquete desde la 7.2)
 synopkg uninstall ScsiTarget (PRECAUCIÓN: Desinstalar, solo hasta la versión 7.1.1)
